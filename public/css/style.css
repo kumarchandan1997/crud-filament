@@ -1,0 +1,12 @@
+.round-image {
+    width: 100px;
+    height: 100px; /* Ensure the height matches the width for a perfect circle */
+    border-radius: 50%; /* Makes the element a circle */
+    object-fit: cover; /* Ensure the image fills the entire circle without distortion */
+}
+
+/* Optionally, define additional styles for a larger round image */
+.round-image.large {
+    width: 100px;
+    height: 100px;
+}
